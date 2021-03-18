@@ -1,0 +1,35 @@
+{
+    "name": "moot",
+    "displayName": "moot",
+    "description": "A theme for the weary-eyed nihilist.",
+    "author": {
+        "name": "Given Suman"
+    },
+    "publisher": "GivenSuman",
+    "galleryBanner": {
+        "color": "#1c2022",
+        "theme": "dark"
+    },
+    "icon": "images/moot_logo.png",
+    "version": "0.1.1",
+    "engines": {
+        "vscode": "^1.54.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tinkoh/moot"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "moot",
+                "uiTheme": "vs-dark",
+                "path": "./themes/moot-color-theme.json"
+            }
+        ]
+    },
+    "keywords": ["moot", "theme", "moot theme", "dark", "dark theme", "one dark", "monokai", "vscode", "color-blindness", "dyslexia", "nihilist", "editor", "syntax", "highlight", "lowlight", "muted", "m00t", "m", "o", "oo", "t", "oot", "moo", "mot"]
+}
