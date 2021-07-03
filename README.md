@@ -12,7 +12,7 @@ If you would like to contribute, I am always interested in help porting to other
 
 Check out the [website](https://moottheme.netlify.app/)!
 
-Recommended companion extensions: *[Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)* and *[vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)*.
+Recommended companion extensions: *[Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)* and *[Bearded Icons](https://marketplace.visualstudio.com/items?itemName=BeardedBear.beardedicons)*.
 
 Enjoy,
 
