@@ -2,10 +2,16 @@
 <img alt="moot-logo" src="https://github.com/tinkoh/moot/blob/main/images/moot_logo.png?raw=true" width="100" />
 </div>
 
+<div align="center">
+👩‍💻 <img alt="installs" src="https://img.shields.io/visual-studio-marketplace/i/GivenSuman.moot" align="center"/> &nbsp;&nbsp;
+<img alt="rating" src="https://img.shields.io/visual-studio-marketplace/stars/GivenSuman.moot" align="center"/> 🌟
+</div>
+
+
 ## Color-blind friendly syntax highlighting.
 
-moot is a dark theme designed to maintain distinction for every hacker.
-moot's design is based on the work of [Paul Tol](https://personal.sron.nl/~pault/).
+moot is a dark theme designed to maintain syntax distinction for every hacker.
+moot's design philosophy is based on the work of [Paul Tol](https://personal.sron.nl/~pault/).
 
 ---
 ![code_screenshot](https://github.com/tinkoh/moot/blob/main/images/moot_screenshot.png?raw=true)
