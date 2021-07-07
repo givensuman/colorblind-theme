@@ -1,8 +1,11 @@
-# **moot**
+<div align="center">
+<img alt="moot-logo" src="https://github.com/tinkoh/moot/blob/main/images/moot_logo.png?raw=true" width="100" />
+</div>
 
-## Call your methods with a moot point.
+## Color-blind friendly syntax highlighting.
 
-This theme is inspired by colorful and modern dark themes like One Dark and Monokai with an added effort to remove conflicting colors understood to cause eye strain, discomfort for dyslexics, and to overlap with Deuteranomaly and Protanomaly red-green colorblindness. 
+moot is a dark theme designed to maintain distinction for every hacker.
+moot's design is based on the work of [Paul Tol](https://personal.sron.nl/~pault/).
 
 ---
 ![code_screenshot](https://github.com/tinkoh/moot/blob/main/images/moot_screenshot.png?raw=true)
@@ -12,4 +15,5 @@ If you would like to contribute, check out the github repository *[here](https:/
 
 Recommended companion extensions: *[Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)* and *[Bearded Icons](https://marketplace.visualstudio.com/items?itemName=BeardedBear.beardedicons)*.
 
-Happy hacking!
+<p align="center">Happy hacking! 🐱‍💻</p>
+
