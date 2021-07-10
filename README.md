@@ -11,7 +11,7 @@
 ## Color-blind friendly syntax highlighting.
 
 moot is a dark theme designed to maintain syntax distinction for every hacker.
-moot's design philosophy is based on the work of [Paul Tol](https://personal.sron.nl/~pault/).
+Its design philosophy is based on the work of [Paul Tol](https://personal.sron.nl/~pault/).
 
 ---
 ![code_screenshot](https://github.com/tinkoh/moot/blob/main/images/moot_screenshot.png?raw=true)
