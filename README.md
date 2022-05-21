@@ -1,25 +1,25 @@
 <div align="center">
-<img alt="moot-logo" src="https://github.com/tinkoh/moot/blob/main/images/moot_logo.png?raw=true" width="100" />
+<img alt="logo" src="https://github.com/givensuman/colorblind-theme/blob/main/images/logo.png?raw=true" width="100" />
+
+<br>
+
+<h1>Colorblind Theme</h1>
 </div>
 
-<div align="center">
-👩‍💻 <img alt="installs" src="https://img.shields.io/visual-studio-marketplace/i/GivenSuman.moot" align="center"/> &nbsp;&nbsp;
-<img alt="rating" src="https://img.shields.io/visual-studio-marketplace/stars/GivenSuman.moot" align="center"/> 🌟
-</div>
 
 
-## Color-blind friendly syntax highlighting.
 
-moot is a dark theme designed to maintain syntax distinction for every hacker.
+## Color-blind friendly syntax highlighting for VSCode
+
+A dark theme designed to create meaningful syntax highlighting for every kind of hacker.
 Its design philosophy is based on the work of [Paul Tol](https://personal.sron.nl/~pault/).
 
 ---
-![code_screenshot](https://github.com/tinkoh/moot/blob/main/images/moot_screenshot.png?raw=true)
+![code_screenshot](https://github.com/givensuman/colorblind-theme/blob/main/images/screenshot.png?raw=true)
 
 ---
-If you would like to contribute, check out the github repository *[here](https://github.com/tinkoh/moot)*. You can also check out the [website](https://moottheme.netlify.app/)!
+If you would like to contribute, check out the github repository [here](https://github.com/givensuman/colorblind-theme). You can also check out the [website](https://colorblind-theme.netlify.app/)!
 
-Recommended companion extensions: *[Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)* and *[Bearded Icons](https://marketplace.visualstudio.com/items?itemName=BeardedBear.beardedicons)*.
 
 <p align="center">Happy hacking! 🐱‍💻</p>
 

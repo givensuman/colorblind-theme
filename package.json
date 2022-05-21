@@ -1,12 +1,12 @@
 {
-  "name": "moot",
-  "displayName": "moot theme",
+  "name": "colorblind-theme",
+  "displayName": "Colorblind Theme",
   "publisher": "GivenSuman",
   "author": {
     "name": "Given Suman"
   },
-  "description": "Call your methods with a moot point.",
-  "version": "2.0.8",
+  "description": "Color blind friendly syntax highlighting for VSCode",
+  "version": "1.0.0",
   "license": "MIT",
   "engines": {
     "vscode": "^1.11.0"
@@ -15,20 +15,22 @@
     "Themes"
   ],
   "galleryBanner": {
-    "color": "#1c2022",
+    "color": "#252427",
     "theme": "dark"
   },
-  "icon": "images/moot_logo.png",
+  "icon": "images/logo.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tinkoh/moot"
-},
+    "url": "https://github.com/givensuman/colorblind-theme"
+  },
+  "scripts": {
+    "package": "npx vsce package"
+  },
   "keywords": [
     "dark",
     "minimalist",
     "theme",
     "vscode",
-    "moot",
     "color blind",
     "color-blind",
     "syntax",
@@ -44,9 +46,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "moot theme",
+        "label": "Colorblind Theme",
         "uiTheme": "vs-dark",
-        "path": "/moot-theme.json"
+        "path": "/colorblind-theme.json"
       }
     ]
   }
