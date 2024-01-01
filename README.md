@@ -2,18 +2,26 @@
 <img alt="logo" src="https://github.com/givensuman/colorblind-theme/blob/main/images/logo.png?raw=true" width="100" />
 
 <br>
-
 <h1>Colorblind Theme</h1>
+<h2>Color-blind friendly syntax highlighting for VSCode</h2>
 </div>
 
-## Color-blind friendly syntax highlighting for VSCode
+A dark theme created with accessibility in mind. Designed to provide meaningful syntax highlighting for all types of developers, with a special focus on being friendly to color-blind individuals.
 
-## A dark theme designed to create meaningful syntax highlighting for every kind of hacker.
+### Preview
+
+To see a full demo, visit the [website](https://colorblind-theme.givensuman.com).
 
 ![code_screenshot](https://github.com/givensuman/colorblind-theme/blob/main/images/screenshot.png?raw=true)
 
----
+### Contributing
 
-If you would like to contribute, check out the github repository [here](https://github.com/givensuman/colorblind-theme). You can also check out the [website](https://colorblind-theme.netlify.app/)!
+Contributions are welcome! If you're interested in improving the Colorblind Theme, please visit the [Github repo](https://github.com/givensuman/colorblind-theme).
 
-<p align="center">Happy hacking! 🐱‍💻</p>
+### Acknowledgements
+
+This extension and its themes are directly built off of the work of the following:
+
+- [IBM](https://www.ibm.com/able/)
+- [Bang Wong](https://www.nature.com/articles/nmeth.1618)
+- [Paul Tol](https://personal.sron.nl/~pault/)
