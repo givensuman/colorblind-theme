@@ -6,8 +6,8 @@
     "name": "Given Suman"
   },
   "description": "Color blind friendly syntax highlighting for VSCode",
-  "version": "1.0.0",
-  "license": "MIT",
+  "version": "2.0.0",
+  "license": "GPL-3.0-or-later",
   "engines": {
     "vscode": "^1.11.0"
   },
@@ -18,25 +18,23 @@
     "color": "#252427",
     "theme": "dark"
   },
-  "icon": "images/logo.png",
+  "icon": "assets/logo.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/givensuman/colorblind-theme"
   },
   "scripts": {
-    "package": "npx vsce package",
+    "ls": "pnpm dlx vsce ls",
+    "package": "pnpm dlx vsce package --out packages/",
     "make": "(cd make && python3 main.py);"
   },
   "keywords": [
     "dark",
-    "minimalist",
     "theme",
     "vscode",
     "color blind",
     "color-blind",
     "syntax",
-    "highlight",
-    "lowlight",
     "deuteranomaly",
     "protanomaly",
     "tritanomaly",
@@ -49,7 +47,7 @@
       {
         "label": "Colorblind Theme",
         "uiTheme": "vs-dark",
-        "path": "/colorblind-theme.json"
+        "path": "colorblind-theme.json"
       }
     ]
   }

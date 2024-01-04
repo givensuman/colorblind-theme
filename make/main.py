@@ -22,20 +22,20 @@ base_colors = load_yaml('./base_palette.yaml')
 theme_colors = load_yaml('../palette.yaml')
 
 # Convert the array into an array of dicts
-def create_theme_dict(theme):
+def create_theme_dict():
     color_dicts = []
-    for color in (base_colors + theme_colors[theme]):
+    for color in (base_colors + theme_colors):
         for name, values in color.items():
             color_dict = {
                 'name': name,
                 'hex': values[0],
                 'rgb': tuple(map(int, values[1].strip('()').split(','))),
-                'hsl': tuple(float(val.strip('%')) for val in values[2].strip('()').split(','))
+                # 'hsl': tuple(float(val.strip('%')) for val in values[2].strip('()').split(','))
             }
             color_dicts.append(color_dict)
     return color_dicts
 
-color_dicts = {}
+color_dicts = create_theme_dict()
 
 def find_nearest_color(target_color, color_options):
     # Convert the target color to Lab color space
@@ -90,11 +90,8 @@ template = {}
 with open('base_template.json', 'r') as f:
     template = json.load(f)
 
-for index, theme in enumerate(['IBM', 'Bang Wong', 'Paul Tol']):
-    color_dicts = create_theme_dict(theme)
-    new_json = replace_colors(template)
+new_json = replace_colors(template)
 
-    # Write theme to JSON
-    theme = theme.replace(' ', '_').lower()
-    with open(f'../themes/{theme}.json', 'w') as f:
-        json.dump(new_json, f, indent=2)
+# Write theme to JSON
+with open('../colorblind-theme.json', 'w') as f:
+    json.dump(new_json, f, indent=2)
