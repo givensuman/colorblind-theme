@@ -25,9 +25,7 @@
   },
   "scripts": {
     "package": "npx vsce package",
-    "venv:create": "(cd build && mkdir venv && sudo python3 -m venv ./venv);",
-    "venv:destroy": "(cd build && rm -rf ./venv);",
-    "venv:activate": "(cd build && source ./venv/bin/activate);"
+    "make": "(cd make && python3 main.py);"
   },
   "keywords": [
     "dark",

@@ -22,16 +22,20 @@ base_colors = load_yaml('./base_palette.yaml')
 theme_colors = load_yaml('../palette.yaml')
 
 # Convert the array into an array of dicts
-color_dicts = []
-for color in (base_colors['Dark'] + theme_colors['Paul Tol']):
-    for name, values in color.items():
-        color_dict = {
-            'name': name,
-            'hex': values[0],
-            'rgb': tuple(map(int, values[1].strip('()').split(','))),
-            'hsl': tuple(float(val.strip('%')) for val in values[2].strip('()').split(','))
-        }
-        color_dicts.append(color_dict)
+def create_theme_dict(theme):
+    color_dicts = []
+    for color in (base_colors + theme_colors[theme]):
+        for name, values in color.items():
+            color_dict = {
+                'name': name,
+                'hex': values[0],
+                'rgb': tuple(map(int, values[1].strip('()').split(','))),
+                'hsl': tuple(float(val.strip('%')) for val in values[2].strip('()').split(','))
+            }
+            color_dicts.append(color_dict)
+    return color_dicts
+
+color_dicts = {}
 
 def find_nearest_color(target_color, color_options):
     # Convert the target color to Lab color space
@@ -82,14 +86,15 @@ def replace_colors(obj):
         return obj
 
 # Read JSON template
-with open('base.json', 'r') as f:
-    json_obj = json.load(f)
+template = {}
+with open('base_template.json', 'r') as f:
+    template = json.load(f)
 
-new_json = replace_colors(json_obj)
-print(new_json)
+for index, theme in enumerate(['IBM', 'Bang Wong', 'Paul Tol']):
+    color_dicts = create_theme_dict(theme)
+    new_json = replace_colors(template)
 
-# Write theme to JSON
-with open('filename.json', 'w') as f:
-    json.dump(new_json, f, indent=2)
-
-print(json.dumps(new_json, indent=2))
+    # Write theme to JSON
+    theme = theme.replace(' ', '_').lower()
+    with open(f'../themes/{theme}.json', 'w') as f:
+        json.dump(new_json, f, indent=2)
