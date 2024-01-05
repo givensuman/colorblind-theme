@@ -1,7 +1,6 @@
 <div align="center">
 <img alt="logo" src="./assets/logo.png" width="100" />
 
-<br>
 <h1>Colorblind Theme</h1>
 <h2>Color-blind friendly syntax highlighting for VSCode</h2>
 </div>
@@ -18,7 +17,7 @@ To see a full demo, visit the [website](https://colorblind-theme.givensuman.com)
 
 ### Contributing
 
-Contributions are welcome! If you're interested in improving the Colorblind Theme, please visit the [Github repo](https://github.com/givensuman/colorblind-theme).
+Contributions are welcome! If you're interested in improving Colorblind Theme, please visit the [Github repo](https://github.com/givensuman/colorblind-theme).
 
 ### How It's Made
 
