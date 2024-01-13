@@ -1,7 +1,12 @@
-import { purgeCss } from 'vite-plugin-tailwind-purgecss';
-import { sveltekit } from '@sveltejs/kit/vite';
-import { defineConfig } from 'vite';
+import path from "path"
+import react from '@vitejs/plugin-react-swc'
+import { defineConfig } from "vite"
 
 export default defineConfig({
-	plugins: [sveltekit(), purgeCss()]
-});
+  plugins: [react()],
+  resolve: {
+    alias: {
+      "@": path.resolve(__dirname, "./@"),
+    },
+  },
+})
