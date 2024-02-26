@@ -50,5 +50,9 @@
         "path": "colorblind-theme.json"
       }
     ]
+  },
+  "dependencies": {
+    "@tanstack/react-store": "^0.3.1",
+    "@tanstack/store": "^0.3.1"
   }
 }
