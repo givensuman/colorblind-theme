@@ -2,22 +2,20 @@
 <img alt="logo" src="./assets/logo.png" width="100" />
 
 <h1>Colorblind Theme</h1>
-<h2>Color-blind friendly syntax highlighting for VSCode</h2>
+
+![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/GivenSuman.colorblind-theme)
+
+Color-blind friendly syntax highlighting for VSCode
+<br />
+<br />
+
 </div>
 
 A dark theme created with accessibility in mind. Designed to provide meaningful syntax highlighting for all types of developers, with a special focus on being friendly to color-blind individuals.
 
 The theme is directly based on the work of [Paul Tol](https://personal.sron.nl/~pault/) in data visualization accessibility.
 
-### Preview
-
-To see a full demo, visit the [website](https://colorblind-theme.givensuman.com).
-
 ![code_screenshot](./assets/screenshot.png)
-
-### Contributing
-
-Contributions are welcome! If you're interested in improving Colorblind Theme, please visit the [Github repo](https://github.com/givensuman/colorblind-theme).
 
 ### How It's Made
 
