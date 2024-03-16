@@ -1,3 +1,4 @@
-site/**
-images/**
-!images/logo.png
+make/**
+node_modules
+venv
+bun.lockb

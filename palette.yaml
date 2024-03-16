@@ -1,0 +1,104 @@
+# Discrete Rainbow Scheme (23 colors)
+# Designed by Paul Tol
+# https://personal.sron.nl/~pault/
+
+# - Name
+#   - HEX
+#   - RGB
+#   - HSL
+
+- Light Purple (no. 1):
+    - e8ecfb
+    - (232, 236, 251)
+
+- Light Purple (no. 2):
+    - d9cce3
+    - (217, 204, 227)
+
+- Purple (no. 4):
+    - caaccb
+    - (202, 172, 203)
+
+- Purple (no. 5):
+    - ba8db4
+    - (186, 141, 180)
+
+- Purple (no. 7):
+    - aa6f9e
+    - (170, 111, 158)
+
+- Dark Purple (no. 8):
+    - 994f88
+    - (153, 79, 136)
+
+- Dark Purple (no. 9):
+    - 882e72
+    - (136, 46, 114)
+
+- Dark Blue (no. 10):
+    - 1965b0
+    - (25, 101, 176)
+
+- Blue (no. 11):
+    - 437dbf
+    - (67, 125, 191)
+
+- Blue (no. 13):
+    - 6195cf
+    - (97, 149, 207)
+
+- Light Blue (no. 14):
+    - 7bafde
+    - (123, 175, 222)
+
+- Dark Green (no. 15):
+    - 4eb265
+    - (78, 178, 101)
+
+- Green (no. 16):
+    - 90c987
+    - (144, 201, 135)
+
+- Light Green (no. 17):
+    - cae0ab
+    - (202, 224, 171)
+
+- Yellow (no. 18):
+    - f7f056
+    - (247, 240, 86)
+
+- Light Orange (no. 19):
+    - f7cb45
+    - (247, 203, 69)
+
+- Orange (no. 21):
+    - f4a736
+    - (244, 167, 54)
+
+- Orange (no. 23):
+    - ee8026
+    - (238, 128, 38)
+
+- Dark Orange (no. 25):
+    - e65518
+    - (230, 85, 24)
+
+- Red (no. 26):
+    - dc050c
+    - (220, 5, 12)
+
+- Red (no. 27):
+    - a5170e
+    - (165, 23, 14)
+
+- Dark Red (no. 28):
+    - 72190e
+    - (114, 25, 14)
+
+- Dark Red (no. 29):
+    - 42150a
+    - (66, 21, 10)
+
+- Gray:
+    - 777777
+    - (119, 119, 119)
