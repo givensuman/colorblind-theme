@@ -1,4 +1,4 @@
-site/**
 make/**
 node_modules
-!assets/logo.png
+venv
+bun.lockb
